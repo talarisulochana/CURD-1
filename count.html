@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            height: 100vh;
+            justify-content: center;
+        }
+        .Counter {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid black;
+            padding: 20px;
+            gap: 10px;
+            width: 200px;
+            background-color: aqua;
+        }
+        #inc{
+            background-color: green;
+        }
+        #dec{
+            background-color: orangered;
+        }
+        #reset{
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Counter">
+        <h1>CounterApp</h1>
+        <p id="count">0</p>
+        <button id="inc">Increment</button>
+        <button id="dec">Decrement</button>
+        <button id="reset">Reset</button>
+    </div>
+    <script src="C.js"></script>
+</body>
+
+</html>
